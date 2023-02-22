@@ -1,25 +1,30 @@
 {
   "files": {
-    "main.css": "/Bocnee/evilkingdomohfot.git/static/css/main.5c5659bc.css",
-    "main.js": "/Bocnee/evilkingdomohfot.git/static/js/main.4b277e1c.js",
-    "static/media/handlee-latin-400.woff": "/Bocnee/evilkingdomohfot.git/static/media/handlee-latin-400.59548c9679fd9ea88942.woff",
-    "static/media/quicksand-latin-600.woff": "/Bocnee/evilkingdomohfot.git/static/media/quicksand-latin-600.6891aedf32783ef69334.woff",
-    "static/media/quicksand-latin-500.woff": "/Bocnee/evilkingdomohfot.git/static/media/quicksand-latin-500.e16bfdc463d3fa68fe5b.woff",
-    "static/media/quicksand-latin-400.woff": "/Bocnee/evilkingdomohfot.git/static/media/quicksand-latin-400.558969494c5e2743f1cf.woff",
-    "static/media/quicksand-latin-300.woff": "/Bocnee/evilkingdomohfot.git/static/media/quicksand-latin-300.c7342fbf45ae28f68801.woff",
-    "static/media/quicksand-latin-700.woff": "/Bocnee/evilkingdomohfot.git/static/media/quicksand-latin-700.82849a6e9f5978535d52.woff",
-    "static/media/handlee-latin-400.woff2": "/Bocnee/evilkingdomohfot.git/static/media/handlee-latin-400.a3ba2013411ea8f88dfa.woff2",
-    "static/media/quicksand-latin-600.woff2": "/Bocnee/evilkingdomohfot.git/static/media/quicksand-latin-600.07a3480d288293229838.woff2",
-    "static/media/quicksand-latin-400.woff2": "/Bocnee/evilkingdomohfot.git/static/media/quicksand-latin-400.4632f3d10356442aa7a6.woff2",
-    "static/media/quicksand-latin-500.woff2": "/Bocnee/evilkingdomohfot.git/static/media/quicksand-latin-500.4ff6e5b9ccdb25199651.woff2",
-    "static/media/quicksand-latin-700.woff2": "/Bocnee/evilkingdomohfot.git/static/media/quicksand-latin-700.e38cff2ded151dda276f.woff2",
-    "static/media/quicksand-latin-300.woff2": "/Bocnee/evilkingdomohfot.git/static/media/quicksand-latin-300.c21933f51b34fd58090f.woff2",
-    "index.html": "/Bocnee/evilkingdomohfot.git/index.html",
-    "main.5c5659bc.css.map": "/Bocnee/evilkingdomohfot.git/static/css/main.5c5659bc.css.map",
-    "main.4b277e1c.js.map": "/Bocnee/evilkingdomohfot.git/static/js/main.4b277e1c.js.map"
+    "main.css": "/evilkingdomohfot/static/css/main.52365862.css",
+    "main.js": "/evilkingdomohfot/static/js/main.ee1a768b.js",
+    "static/media/lotpie.png": "/evilkingdomohfot/static/media/lotpie.dac12c437817b49aea21.png",
+    "static/media/bowserjrbaby.png": "/evilkingdomohfot/static/media/bowserjrbaby.047130a0d6efc080fcca.png",
+    "static/media/kaonboo.png": "/evilkingdomohfot/static/media/kaonboo.1fde9a4463cba03a5fbb.png",
+    "static/media/kaoryl.png": "/evilkingdomohfot/static/media/kaoryl.4801636dff0e70e4e225.png",
+    "static/media/boo.png": "/evilkingdomohfot/static/media/boo.fee4fe69b18274efa8a2.png",
+    "static/media/handlee-latin-400.woff": "/evilkingdomohfot/static/media/handlee-latin-400.59548c9679fd9ea88942.woff",
+    "static/media/quicksand-latin-600.woff": "/evilkingdomohfot/static/media/quicksand-latin-600.6891aedf32783ef69334.woff",
+    "static/media/quicksand-latin-500.woff": "/evilkingdomohfot/static/media/quicksand-latin-500.e16bfdc463d3fa68fe5b.woff",
+    "static/media/quicksand-latin-400.woff": "/evilkingdomohfot/static/media/quicksand-latin-400.558969494c5e2743f1cf.woff",
+    "static/media/quicksand-latin-300.woff": "/evilkingdomohfot/static/media/quicksand-latin-300.c7342fbf45ae28f68801.woff",
+    "static/media/quicksand-latin-700.woff": "/evilkingdomohfot/static/media/quicksand-latin-700.82849a6e9f5978535d52.woff",
+    "static/media/handlee-latin-400.woff2": "/evilkingdomohfot/static/media/handlee-latin-400.a3ba2013411ea8f88dfa.woff2",
+    "static/media/quicksand-latin-600.woff2": "/evilkingdomohfot/static/media/quicksand-latin-600.07a3480d288293229838.woff2",
+    "static/media/quicksand-latin-400.woff2": "/evilkingdomohfot/static/media/quicksand-latin-400.4632f3d10356442aa7a6.woff2",
+    "static/media/quicksand-latin-500.woff2": "/evilkingdomohfot/static/media/quicksand-latin-500.4ff6e5b9ccdb25199651.woff2",
+    "static/media/quicksand-latin-700.woff2": "/evilkingdomohfot/static/media/quicksand-latin-700.e38cff2ded151dda276f.woff2",
+    "static/media/quicksand-latin-300.woff2": "/evilkingdomohfot/static/media/quicksand-latin-300.c21933f51b34fd58090f.woff2",
+    "index.html": "/evilkingdomohfot/index.html",
+    "main.52365862.css.map": "/evilkingdomohfot/static/css/main.52365862.css.map",
+    "main.ee1a768b.js.map": "/evilkingdomohfot/static/js/main.ee1a768b.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c5659bc.css",
-    "static/js/main.4b277e1c.js"
+    "static/css/main.52365862.css",
+    "static/js/main.ee1a768b.js"
   ]
 }
