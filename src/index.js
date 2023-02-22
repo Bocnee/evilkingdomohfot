@@ -36,7 +36,6 @@ createRoot(document.getElementById('root')).render(
             <Route path="/evilkingdomohfot/info" />
          </Routes>
       </BrowserRouter>
-
       <Footer />
    </React.StrictMode>
 );

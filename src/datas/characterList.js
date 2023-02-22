@@ -12,7 +12,9 @@ export const characterList = [
       prenomComplet: '???',
       surnoms: 'Boo',
       affiliation: 'Royaume Koopa',
+      royaumeKoopa: true,
       espece: 'Boo',
+      test: true,
       img: booImg,
    },
    {
@@ -23,6 +25,8 @@ export const characterList = [
       surnoms: 'Cass',
       affiliation: 'Royaume Koopa',
       espece: 'Maskass',
+      royaumeKoopa: true,
+      test: false,
       img: cassandreImg,
    },
    {
@@ -33,6 +37,7 @@ export const characterList = [
       surnoms: 'Junior',
       affiliation: 'Royaume Koopa',
       espece: 'Koopa Draconien',
+      royaumeKoopa: true,
       img: juniorImg,
    },
    {
@@ -43,6 +48,7 @@ export const characterList = [
       surnoms: "Kao'",
       affiliation: 'Royaume Koopa',
       espece: 'Koopa Troopa',
+      royaumeKoopa: true,
       img: kaorylImg,
    },
    {
@@ -54,5 +60,6 @@ export const characterList = [
       affiliation: 'Royaume Koopa',
       espece: 'Koopa Paratroopa',
       img: lotpieImg,
+      royaumeKoopa: true,
    },
 ];

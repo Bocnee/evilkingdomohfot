@@ -32,8 +32,8 @@ function Personnages() {
                   nom={chara.nom}
                   prenomComplet={chara.prenomComplet}
                   espece={chara.espece}
-                  affiliation={chara.affiliation}
                   image={chara.img}
+                  royaumeKoopa={chara.royaumeKoopa}
                />
             ))}
          </CardWrap>

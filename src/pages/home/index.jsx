@@ -1,14 +1,17 @@
 /* React */
 import { useEffect } from 'react';
 
-/* Styles */
-import styled from 'styled-components';
-import colors from '../../utils/styles/Colors';
-import { PageTitle } from '../../utils/atoms/PageTitle';
-
-/* Carousel */
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import { Carousel } from 'react-responsive-carousel';
+
+/* Styles */
+import { PageTitle } from '../../utils/atoms/PageTitle';
+import { HomeWrap } from '../../utils/styles/pages/Home';
+import { CitationnTitleWrap } from '../../utils/styles/pages/Home';
+import { CitationWrap } from '../../utils/styles/pages/Home';
+import { Citation } from '../../utils/styles/pages/Home';
+import { ImagesWrap } from '../../utils/styles/pages/Home';
+import { CarouselWrap } from '../../utils/styles/pages/Home';
+import { Images } from '../../utils/styles/pages/Home';
 
 /* Images Carousel */
 import Boo from '../../assets/imagescarousel/boo.png';
@@ -16,72 +19,6 @@ import BowserJrBaby from '../../assets/imagescarousel/bowserjrbaby.png';
 import kaonboo from '../../assets/imagescarousel/kaonboo.png';
 import Kaoryl from '../../assets/imagescarousel/kaoryl.png';
 import Lotpie from '../../assets/imagescarousel/lotpie.png';
-
-const HomeWrap = styled.div`
-   margin: 50px 50px 0px 50px;
-   display: flex;
-   gap: 60px;
-   margin-top: 50px;
-   justify-content: center;
-`;
-
-const CitationnTitleWrap = styled.div`
-   width: 1000px;
-   & .citationnTitleWrap__div {
-      border-radius: 20px 20px 20px 20px;
-      box-shadow: 4px 4px 4px ${colors.textlight}, -4px -4px 4px white;
-      padding-top: 30px;
-      transform: scale(1);
-      transition: all 1s;
-      &:hover {
-         box-shadow: none;
-         cursor: pointer;
-         transform: scale(0.99);
-      }
-   }
-`;
-
-const CitationWrap = styled.div`
-   text-align: justify;
-`;
-
-const Citation = styled.p`
-   font-size: 1.5rem;
-   &:first-child {
-      margin: 30px;
-      text-indent: 30px;
-   }
-   &:last-child {
-      text-align: center;
-      background-color: ${colors.backgroundLight};
-      padding: 20px;
-      border-radius: 0 0 20px 20px;
-   }
-   &:first-child:before {
-      content: '« ';
-      font-size: 1.5rem;
-      font-weight: bold;
-   }
-   &:first-child:after {
-      content: ' »';
-      font-size: 1.5rem;
-      font-weight: bold;
-   }
-`;
-
-const ImagesWrap = styled.div`
-   width: 800px;
-   margin: auto;
-   background-color: width;
-`;
-
-const Images = styled.img`
-   object-fit: cover;
-`;
-
-const CarouselWrap = styled(Carousel)`
-   object-fit: cover;
-`;
 
 function Home() {
    useEffect(() => {
