@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/evilkingdomohfot/static/css/main.52365862.css",
-    "main.js": "/evilkingdomohfot/static/js/main.9b10a7e6.js",
+    "main.js": "/evilkingdomohfot/static/js/main.a253038b.js",
     "static/media/lotpie.png": "/evilkingdomohfot/static/media/lotpie.8e14b2a279fec34245aa.png",
     "static/media/bowserjrbaby.png": "/evilkingdomohfot/static/media/bowserjrbaby.047130a0d6efc080fcca.png",
     "static/media/kaonboo.png": "/evilkingdomohfot/static/media/kaonboo.1fde9a4463cba03a5fbb.png",
@@ -10,6 +10,7 @@
     "static/media/cassandre.png": "/evilkingdomohfot/static/media/cassandre.3b155d13fbcad18ce89e.png",
     "static/media/RoyaumeKoopa.png": "/evilkingdomohfot/static/media/RoyaumeKoopa.b168069140d41ded687c.png",
     "static/media/boo.png": "/evilkingdomohfot/static/media/boo.8a815fd4eb74c37b8782.png",
+    "static/media/RoyaumeChampi.png": "/evilkingdomohfot/static/media/RoyaumeChampi.ff02875f5954d8fffb8f.png",
     "static/media/handlee-latin-400.woff": "/evilkingdomohfot/static/media/handlee-latin-400.59548c9679fd9ea88942.woff",
     "static/media/quicksand-latin-600.woff": "/evilkingdomohfot/static/media/quicksand-latin-600.6891aedf32783ef69334.woff",
     "static/media/quicksand-latin-500.woff": "/evilkingdomohfot/static/media/quicksand-latin-500.e16bfdc463d3fa68fe5b.woff",
@@ -24,10 +25,10 @@
     "static/media/quicksand-latin-300.woff2": "/evilkingdomohfot/static/media/quicksand-latin-300.c21933f51b34fd58090f.woff2",
     "index.html": "/evilkingdomohfot/index.html",
     "main.52365862.css.map": "/evilkingdomohfot/static/css/main.52365862.css.map",
-    "main.9b10a7e6.js.map": "/evilkingdomohfot/static/js/main.9b10a7e6.js.map"
+    "main.a253038b.js.map": "/evilkingdomohfot/static/js/main.a253038b.js.map"
   },
   "entrypoints": [
     "static/css/main.52365862.css",
-    "static/js/main.9b10a7e6.js"
+    "static/js/main.a253038b.js"
   ]
 }
