@@ -4,13 +4,11 @@ import { useEffect } from 'react';
 /* Styles */
 import styled from 'styled-components';
 import colors from '../../utils/styles/Colors';
+import { PageTitle } from '../../utils/atoms/PageTitle';
 
 /* Carousel */
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
-
-/* TypeScript */
-import Typewriter from 'typewriter-effect';
 
 /* Images Carousel */
 import Boo from '../../assets/imagescarousel/boo.png';
@@ -20,31 +18,25 @@ import Kaoryl from '../../assets/imagescarousel/kaoryl.png';
 import Lotpie from '../../assets/imagescarousel/lotpie.png';
 
 const HomeWrap = styled.div`
-   width: 80%;
-   margin: auto;
+   margin: 50px 50px 0px 50px;
    display: flex;
    gap: 60px;
    margin-top: 50px;
    justify-content: center;
 `;
 
-const HomeTitle = styled.h2`
-   font-family: handlee;
-   font-size: 2rem;
-   text-align: center;
-`;
-
 const CitationnTitleWrap = styled.div`
    width: 1000px;
    & .citationnTitleWrap__div {
-      margin-top: 50px;
       border-radius: 20px 20px 20px 20px;
       box-shadow: 4px 4px 4px ${colors.textlight}, -4px -4px 4px white;
       padding-top: 30px;
-      transition: all 0.5s;
+      transform: scale(1);
+      transition: all 1s;
       &:hover {
          box-shadow: none;
          cursor: pointer;
+         transform: scale(0.99);
       }
    }
 `;
@@ -99,7 +91,7 @@ function Home() {
       <HomeWrap>
          <CitationnTitleWrap>
             <div className="citationnTitleWrap__div">
-               <HomeTitle>Evil Kingdom or Hidden Face of truth ?</HomeTitle>
+               <PageTitle>Evil Kingdom or Hidden Face of truth ?</PageTitle>
                <CitationWrap>
                   <Citation>
                      Une énième défaite contre le Royaume Champignon força

@@ -18,6 +18,8 @@ const GlobalStyle = createGlobalStyle`
   
   body {
     background-color: #fafafa;
+    max-width: 1200px;
+    margin: auto;
   }
 `;
 

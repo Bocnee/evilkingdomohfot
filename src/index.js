@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // components
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 // pages
 import Personnages from './pages/personnages';
@@ -32,7 +33,10 @@ createRoot(document.getElementById('root')).render(
             />
             <Route path="/evilkingdomohfot/histoire" element={<Histoire />} />
             <Route path="/evilkingdomohfot/lieux" element={<Lieux />} />
+            <Route path="/evilkingdomohfot/info" />
          </Routes>
       </BrowserRouter>
+
+      <Footer />
    </React.StrictMode>
 );

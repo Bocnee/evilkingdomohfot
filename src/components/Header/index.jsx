@@ -9,8 +9,7 @@ const HeaderWrap = styled.header`
    align-items: center;
    background-color: ${colors.backgroundLight};
    padding: 10px 50px 10px 50px;
-   width: 80%;
-   margin: auto;
+   margin: 0px 50px 0px 50px;
    border-radius: 0 0 25px 25px;
 `;
 
