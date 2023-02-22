@@ -1,9 +1,0 @@
-.test:first-child {
-   object-fit: cover;
-}
-
-:root {
-   --backgroundLight: #6d4c48;
-   /* using with backtits and &{...} */
-   --test: #2c2424;
-}
