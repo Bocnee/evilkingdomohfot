@@ -30,7 +30,7 @@ createRoot(document.getElementById('root')).render(
                path="/evilkingdomohfot/personnages"
                element={<Personnages />}
             />
-            <Route path="/evilkingdomohfott/histoire" element={<Histoire />} />
+            <Route path="/evilkingdomohfot/histoire" element={<Histoire />} />
             <Route path="/evilkingdomohfot/lieux" element={<Lieux />} />
          </Routes>
       </BrowserRouter>
