@@ -1,0 +1,82 @@
+@import '../globalstyle.module.scss';
+
+.headerWrap {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: $background-secondary;
+   padding: 10px 50px;
+   margin: 0 50px;
+   border-radius: 0 0 25px 25px;
+   text-align: center;
+}
+
+.title {
+   font-family: handlee;
+   width: 100%;
+   &__subtitle {
+      color: $textlight;
+      font-size: 1rem;
+      padding-bottom: 30px;
+      border-bottom: 1px solid;
+   }
+}
+
+.navPrincipal {
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   margin-bottom: 30px;
+   margin-top: 20px;
+}
+
+.navLink {
+   width: 25%;
+   font-size: 1.1rem;
+   color: $textlight;
+   text-decoration: none;
+   padding: 5px;
+   transition: all 0.5s;
+   position: relative;
+   &:after {
+      position: absolute;
+      width: 0%;
+      height: 1px;
+      content: '';
+      background: $textlight;
+      transition: all 0.7s;
+      left: 0px;
+      bottom: -10px;
+   }
+   &:hover:after {
+      width: 100%;
+   }
+   &:hover {
+      color: $text;
+      font-weight: bold;
+   }
+   &__active {
+      color: $text;
+      font-weight: bold;
+      &:after {
+         width: 100%;
+      }
+   }
+}
+
+@media screen and (max-width: 700px) {
+   .headerWrap {
+      margin: 0;
+      border-radius: 0;
+   }
+
+   .navPrincipal {
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .navLink {
+      margin-bottom: 10px;
+      width: auto;
+   }
+}

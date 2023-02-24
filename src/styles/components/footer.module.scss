@@ -1,0 +1,22 @@
+@import '../globalstyle.module.scss';
+
+.footerWrap {
+   background-color: $background-secondary;
+   margin: 50px 50px 0 50px;
+   padding: 40px;
+}
+
+.para {
+   text-align: center;
+   font-size: 1.1rem;
+   & p,
+   & span {
+      color: $textlight;
+   }
+}
+
+@media screen and (max-width: 700px) {
+   .footerWrap {
+      margin: 50px 0 0 0;
+   }
+}

@@ -1,7 +1,7 @@
 function Lieux() {
    return (
       <div>
-         <h1>Lieux</h1>
+         <h1>Lieux. Hm c'est vide.</h1>
       </div>
    );
 }

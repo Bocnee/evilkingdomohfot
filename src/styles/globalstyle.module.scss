@@ -1,0 +1,33 @@
+// reset général + variables
+
+$background: #f9f9f9;
+$background-secondary: #f2e9e4;
+$text: #553d3b;
+$textlight: #6d4c48aa;
+
+* {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+   font-family: quicksand;
+   color: $text;
+   box-sizing: border-box;
+   word-wrap: break-word;
+}
+
+::selection {
+   background-color: $textlight;
+   color: #fff;
+}
+
+body {
+   max-width: 1200px;
+   margin: auto;
+   background-color: $background;
+}
+
+#root {
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+}

@@ -1,14 +1,9 @@
+// importation des images
 import logoKoopa from '../../assets/logo/RoyaumeKoopa.png';
 import logoChampi from '../../assets/logo/RoyaumeChampi.png';
 
-import { Card } from '../../utils/styles/components/CharaCard';
-import { CardImg } from '../../utils/styles/components/CharaCard';
-import { CardDiv } from '../../utils/styles/components/CharaCard';
-import { CardTitle } from '../../utils/styles/components/CharaCard';
-import { CardDescription } from '../../utils/styles/components/CharaCard';
-import { CardPara } from '../../utils/styles/components/CharaCard';
-import { CardHighlight } from '../../utils/styles/components/CharaCard';
-import { CardAffiliation } from '../../utils/styles/components/CharaCard';
+// styles
+import styles from '../../styles/components/charaCard.module.scss';
 
 function charaCard({
    nom,
@@ -19,35 +14,51 @@ function charaCard({
    image,
 }) {
    return (
-      <Card>
-         <CardImg
-            draggable="false"
+      <article className={styles.card}>
+         <img
             src={image}
-            alt={`Photo de ${prenom}, un ${espece}.`}
+            alt={`${prenom}, un ${espece}.`}
+            draggable="false"
+            className={styles.card__img}
          />
-         <CardDiv>
-            <CardTitle>{prenom}</CardTitle>
-            <CardDescription>
-               <CardPara>
-                  <CardHighlight>Prénom(s)</CardHighlight> : {prenomComplet}
-               </CardPara>
-               <CardPara>
-                  <CardHighlight>Nom(s)</CardHighlight> : {nom}
-               </CardPara>
-               <CardPara>
-                  <CardHighlight>Espèce</CardHighlight> : {espece}
-               </CardPara>
-               <CardAffiliation>
+         <div className={styles.cardWrap}>
+            <h3 className={styles.title}>{prenom}</h3>
+            <div className={styles.description}>
+               <p>
+                  <span className={styles.description__highlight}>
+                     Prénom(s)
+                  </span>{' '}
+                  : {prenomComplet}
+               </p>
+               <p>
+                  <span className={styles.description__highlight}>Nom(s)</span>{' '}
+                  : {nom}
+               </p>
+               <p>
+                  <span className={styles.description__highlight}>Espèce</span>{' '}
+                  : {espece}
+               </p>
+               <div className={styles.affiliationImg}>
                   {' '}
                   {royaumeKoopa ? (
-                     <img src={logoKoopa} alt={`${prenom}, un ${espece}`} />
+                     <img
+                        className={`${styles.logo__bowser} ${styles.logo}`}
+                        src={logoKoopa}
+                        alt={`Logo du Royaume Koopa`}
+                        draggable="false"
+                     />
                   ) : (
-                     <img src={logoChampi} alt={`${prenom}, un ${espece}`} />
+                     <img
+                        className={`${styles.logo__peach} ${styles.logo}`}
+                        src={logoChampi}
+                        alt={`Logo du Royaume Champignon`}
+                        draggable="false"
+                     />
                   )}
-               </CardAffiliation>
-            </CardDescription>
-         </CardDiv>
-      </Card>
+               </div>
+            </div>
+         </div>
+      </article>
    );
 }
 

@@ -8,19 +8,13 @@ export const HeaderWrap = styled.header`
    background-color: ${colors.backgroundLight};
    padding: 10px 50px 10px 50px;
    margin: 0px 50px 0px 50px;
-   import styled from 'styled-components';
-import colors from '../Colors';border-radius: 0 0 25px 25px
-   
-   ;
+   border-radius: 0 0 25px 25px;
 `;
 
 export const Title = styled.h1`
    font-family: handlee;
    text-align: center;
-   import styled from 'styled-components';
-import colors from '../Colors';width: 100%
-   
-   ;
+   width: 100%;
 `;
 
 export const Subtitle = styled.h2`
@@ -30,10 +24,7 @@ export const Subtitle = styled.h2`
    font-size: 1rem;
    width: 100%;
    padding-bottom: 30px;
-   import styled from 'styled-components';
-import colors from '../Colors';border-bottom: 1px solid
-   
-   ;
+   border-bottom: 1px solid;
 `;
 
 export const Nav = styled.nav`

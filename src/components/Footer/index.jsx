@@ -1,29 +1,21 @@
-import styled from 'styled-components';
-import colors from '../../utils/styles/Colors';
-
-const FooterWrap = styled.footer`
-   background-color: ${colors.backgroundLight};
-   margin: 50px 50px 0px 50px;
-   padding: 40px;
-`;
-
-const FooterText = styled.p`
-   color: ${colors.textlight};
-   text-align: center;
-   font-size: 1.1rem;
-`;
+import styles from '../../styles/components/footer.module.scss';
 
 function Footer() {
    return (
-      <FooterWrap>
-         <FooterText>
-            L'univers de Mario ne m'appartient pas, ce projet n'est aucunement
-            rénuméré d'une quelconque façon.
-            <br />
-            Si vous êtes amené à payer pour EKoHFoT, c'est que l'iniative ne
-            vient pas de moi, donc prenez garde aux arnaques.
-         </FooterText>
-      </FooterWrap>
+      <footer className={styles.footerWrap}>
+         <div className={styles.para}>
+            <p>
+               L'univers de Mario ne m'appartient pas, ce projet n'est
+               aucunement rénuméré.
+            </p>
+            <p>
+               Si vous êtes mené à payer pour{' '}
+               <span title="Evil Kingdom or Hidden Face of Truth">EKoHFoT</span>
+               , c'est que l'iniative ne vient pas de moi. Faites attention aux
+               arnaques.
+            </p>
+         </div>
+      </footer>
    );
 }
 

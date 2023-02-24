@@ -14,7 +14,7 @@ import Histoire from './pages/histoire';
 import Lieux from './pages/lieu';
 
 // styles
-import GlobalStyle from './utils/styles/GlobalStyle';
+import './styles/globalstyle.module.scss';
 
 // fonts
 import 'typeface-quicksand';
@@ -23,7 +23,6 @@ import 'typeface-handlee';
 createRoot(document.getElementById('root')).render(
    <React.StrictMode>
       <BrowserRouter>
-         <GlobalStyle />
          <Header />
          <Routes>
             <Route path="/evilkingdomohfot/" element={<Home />} />
