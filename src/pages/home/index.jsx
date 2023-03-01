@@ -1,75 +1,46 @@
-/* React */
+// React
 import { useEffect } from 'react';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
-/* Styles */
-import { PageTitle } from '../../utils/atoms/PageTitle';
-import { HomeWrap } from '../../utils/styles/pages/Home';
-import { CitationnTitleWrap } from '../../utils/styles/pages/Home';
-import { CitationWrap } from '../../utils/styles/pages/Home';
-import { Citation } from '../../utils/styles/pages/Home';
-import { ImagesWrap } from '../../utils/styles/pages/Home';
-import { CarouselWrap } from '../../utils/styles/pages/Home';
-import { Images } from '../../utils/styles/pages/Home';
+// Styles
+import titleStyle from '../../styles/utils/pagesTitle.module.scss';
+import pagesWrap from '../../styles/utils/pagesWrap.module.scss';
+import styles from '../../styles/pages/home.module.scss';
 
-/* Images Carousel */
-import Boo from '../../assets/imagescarousel/boo.png';
-import BowserJrBaby from '../../assets/imagescarousel/bowserjrbaby.png';
-import kaonboo from '../../assets/imagescarousel/kaonboo.png';
-import Kaoryl from '../../assets/imagescarousel/kaoryl.png';
-import Lotpie from '../../assets/imagescarousel/lotpie.png';
+// Images Caroussel
+// import Boo from '../../assets/imagescarousel/boo.png';
+// import BowserJrBaby from '../../assets/imagescarousel/bowserjrbaby.png';
+// import kaonboo from '../../assets/imagescarousel/kaonboo.png';
+// import Kaoryl from '../../assets/imagescarousel/kaoryl.png';
+// import Lotpie from '../../assets/imagescarousel/lotpie.png';
 
 function Home() {
    useEffect(() => {
       document.title = `EKoHFoT | Accueil`;
    });
    return (
-      <HomeWrap>
-         <CitationnTitleWrap>
-            <div className="citationnTitleWrap__div">
-               <PageTitle>Evil Kingdom or Hidden Face of truth ?</PageTitle>
-               <CitationWrap>
-                  <Citation>
-                     Une énième défaite contre le Royaume Champignon força
-                     Bowser à prendre une décision radicale pour mettre en
-                     sécurité son fils. En parallèle, Kaoryl est un Koopa Troopa
-                     de 15 ans, qui rêve de devenir le bras droit du roi, mais
-                     il ne sait pas comment s’y prendre. Les deux sont loin de
-                     s’imaginer ceux qui les attendent.
-                  </Citation>
-                  <Citation>
-                     Suivez les aventures de ces deux inconnus, et bien plus
-                     encore.
-                  </Citation>
-               </CitationWrap>
+      <div className={`${pagesWrap.pagesWrap} ${styles.pagesWrap}`}>
+         <div className={styles.citationWrap}>
+            <h3
+               className={`${titleStyle.pageTitle} ${styles.citationWrap__title}`}>
+               Evil Kingdom or Hidden Face of Truth
+            </h3>
+            <div className={styles.citation}>
+               <p className={styles.citation__para}>
+                  Une énième défaite contre le Royaume Champignon força Bowser à
+                  prendre une décision radicale pour mettre en sécurité son
+                  fils. En parallèle, Kaoryl est un Koopa Troopa de 15 ans, qui
+                  rêve de devenir le bras droit du roi, mais il ne sait pas
+                  comment s’y prendre. Les deux sont loin de s’imaginer ceux qui
+                  les attendent.
+               </p>
+               <p className={styles.citation__para}>
+                  Suivez les aventures de ces deux inconnus, et bien plus
+                  encore.
+               </p>
             </div>
-         </CitationnTitleWrap>
-         <ImagesWrap>
-            <CarouselWrap
-               autoPlay="true"
-               infiniteLoop={true}
-               interval={5000}
-               showStatus={false}
-               showIndicators={false}
-               showThumbs={false}>
-               <div>
-                  <Images src={Boo} />
-               </div>
-               <div>
-                  <Images src={BowserJrBaby} />
-               </div>
-               <div>
-                  <Images src={kaonboo} />
-               </div>
-               <div>
-                  <Images src={Kaoryl} />
-               </div>
-               <div>
-                  <Images src={Lotpie} />
-               </div>
-            </CarouselWrap>
-         </ImagesWrap>
-      </HomeWrap>
+         </div>
+         <div className={styles.carouselWrap}>À venir...</div>
+      </div>
    );
 }
 

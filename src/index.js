@@ -34,7 +34,7 @@ createRoot(document.getElementById('root')).render(
             <Route path="/evilkingdomohfot/lieux" element={<Lieux />} />
             <Route path="/evilkingdomohfot/info" />
          </Routes>
+         <Footer />
       </BrowserRouter>
-      <Footer />
    </React.StrictMode>
 );

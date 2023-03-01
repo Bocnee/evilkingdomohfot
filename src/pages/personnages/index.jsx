@@ -1,30 +1,23 @@
+// pour les fiches personnages
 import { characterList } from '../../datas/characterList';
 import CharaCard from '../../components/CharaCard';
+
+// react
 import { useEffect } from 'react';
-import styled from 'styled-components';
-import { PageTitle } from '../../utils/atoms/PageTitle';
 
-const PersonnageWrap = styled.div`
-   margin: 50px 50px 0px 50px;
-`;
-
-const CardWrap = styled.div`
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-around;
-   margin-top: 30px;
-   gap: 30px;
-`;
+// styles
+import titleStyle from '../../styles/utils/pagesTitle.module.scss';
+import pagesWrap from '../../styles/utils/pagesWrap.module.scss';
+import styles from '../../styles/pages/personnages.module.scss';
 
 function Personnages() {
    useEffect(() => {
       document.title = `EKoHFoT | Personnages`;
    });
-
    return (
-      <PersonnageWrap>
-         <PageTitle>Personnages</PageTitle>
-         <CardWrap>
+      <div className={pagesWrap.pagesWrap}>
+         <h3 className={titleStyle.pageTitle}>Personnages</h3>
+         <div className={styles.cardWrap}>
             {characterList.map((chara) => (
                <CharaCard
                   key={chara.id}
@@ -36,8 +29,8 @@ function Personnages() {
                   royaumeKoopa={chara.royaumeKoopa}
                />
             ))}
-         </CardWrap>
-      </PersonnageWrap>
+         </div>
+      </div>
    );
 }
 

@@ -1,0 +1,60 @@
+@import '../globalstyle.module.scss';
+
+.pagesWrap {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 60px;
+}
+
+.citationWrap {
+   max-width: 600px;
+   border-radius: 20px;
+   box-shadow: 4px 4px 4px $textlight, -4px -4px 4px white;
+   transform: scale(1);
+   transition: all 1s;
+   &:hover {
+      box-shadow: none;
+      cursor: pointer;
+      transform: scale(0.99);
+   }
+   &__title {
+      border-radius: 20px 20px 0 0;
+      background-color: $background-secondary;
+      padding: 20px 10px;
+   }
+}
+
+.citation {
+   text-align: justify;
+   font-size: 1.5rem;
+   &__para {
+      &:first-child {
+         margin: 30px;
+         text-indent: 30px;
+         &:before:after {
+            font-size: 1.5rem;
+            font-weight: bold;
+         }
+         &:before {
+            content: '« ';
+         }
+         &:after {
+            content: ' »';
+         }
+      }
+      &:last-child {
+         text-align: center;
+         padding: 30px;
+         background-color: $background-secondary;
+         border-radius: 0 0 20px 20px;
+         color: $textlight;
+      }
+   }
+}
+
+.carouselWrap {
+   background-color: $background-secondary;
+   padding: 60px;
+   border-radius: 50%;
+}
