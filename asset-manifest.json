@@ -1,11 +1,9 @@
 {
   "files": {
-    "main.css": "/evilkingdomohfot/static/css/main.96616313.css",
-    "main.js": "/evilkingdomohfot/static/js/main.59d34288.js",
+    "main.css": "/evilkingdomohfot/static/css/main.7b25d4dd.css",
+    "main.js": "/evilkingdomohfot/static/js/main.b8babc26.js",
+    "static/media/kaoryl.png": "/evilkingdomohfot/static/media/kaoryl.fe66d8450780d8b1ac59.png",
     "static/media/lotpie.png": "/evilkingdomohfot/static/media/lotpie.8e14b2a279fec34245aa.png",
-    "static/media/bowserjrbaby.png": "/evilkingdomohfot/static/media/bowserjrbaby.047130a0d6efc080fcca.png",
-    "static/media/kaonboo.png": "/evilkingdomohfot/static/media/kaonboo.1fde9a4463cba03a5fbb.png",
-    "static/media/kaoryl.png": "/evilkingdomohfot/static/media/kaoryl.4801636dff0e70e4e225.png",
     "static/media/junior.png": "/evilkingdomohfot/static/media/junior.0a225f01fa7970c6b3d2.png",
     "static/media/cassandre.png": "/evilkingdomohfot/static/media/cassandre.3b155d13fbcad18ce89e.png",
     "static/media/RoyaumeKoopa.png": "/evilkingdomohfot/static/media/RoyaumeKoopa.b168069140d41ded687c.png",
@@ -24,11 +22,11 @@
     "static/media/quicksand-latin-700.woff2": "/evilkingdomohfot/static/media/quicksand-latin-700.e38cff2ded151dda276f.woff2",
     "static/media/quicksand-latin-300.woff2": "/evilkingdomohfot/static/media/quicksand-latin-300.c21933f51b34fd58090f.woff2",
     "index.html": "/evilkingdomohfot/index.html",
-    "main.96616313.css.map": "/evilkingdomohfot/static/css/main.96616313.css.map",
-    "main.59d34288.js.map": "/evilkingdomohfot/static/js/main.59d34288.js.map"
+    "main.7b25d4dd.css.map": "/evilkingdomohfot/static/css/main.7b25d4dd.css.map",
+    "main.b8babc26.js.map": "/evilkingdomohfot/static/js/main.b8babc26.js.map"
   },
   "entrypoints": [
-    "static/css/main.96616313.css",
-    "static/js/main.59d34288.js"
+    "static/css/main.7b25d4dd.css",
+    "static/js/main.b8babc26.js"
   ]
 }
