@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/evilkingdomohfot/static/css/main.b83e3f37.css",
-    "main.js": "/evilkingdomohfot/static/js/main.281cac82.js",
+    "main.css": "/evilkingdomohfot/static/css/main.e36bb936.css",
+    "main.js": "/evilkingdomohfot/static/js/main.3519b04a.js",
     "static/media/kaoryl.png": "/evilkingdomohfot/static/media/kaoryl.fe66d8450780d8b1ac59.png",
     "static/media/lotpie.png": "/evilkingdomohfot/static/media/lotpie.8e14b2a279fec34245aa.png",
     "static/media/junior.png": "/evilkingdomohfot/static/media/junior.0a225f01fa7970c6b3d2.png",
@@ -22,11 +22,11 @@
     "static/media/quicksand-latin-700.woff2": "/evilkingdomohfot/static/media/quicksand-latin-700.e38cff2ded151dda276f.woff2",
     "static/media/quicksand-latin-300.woff2": "/evilkingdomohfot/static/media/quicksand-latin-300.c21933f51b34fd58090f.woff2",
     "index.html": "/evilkingdomohfot/index.html",
-    "main.b83e3f37.css.map": "/evilkingdomohfot/static/css/main.b83e3f37.css.map",
-    "main.281cac82.js.map": "/evilkingdomohfot/static/js/main.281cac82.js.map"
+    "main.e36bb936.css.map": "/evilkingdomohfot/static/css/main.e36bb936.css.map",
+    "main.3519b04a.js.map": "/evilkingdomohfot/static/js/main.3519b04a.js.map"
   },
   "entrypoints": [
-    "static/css/main.b83e3f37.css",
-    "static/js/main.281cac82.js"
+    "static/css/main.e36bb936.css",
+    "static/js/main.3519b04a.js"
   ]
 }
