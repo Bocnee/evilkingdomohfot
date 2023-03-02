@@ -27,11 +27,12 @@ function Header() {
                </NavLink>
                <NavLink
                   to="/evilkingdomohfot/personnages"
-                  className={`${
-                     pathname === '/evilkingdomohfot/personnages'
+                  className={
+                     pathname === '/evilkingdomohfot/personnages' ||
+                     pathname === `/evilkingdomohfot/personnages/`
                         ? `${styles.navLink} ${styles.navLink__active}`
                         : styles.navLink
-                  }`}>
+                  }>
                   Personnages
                </NavLink>
                <NavLink

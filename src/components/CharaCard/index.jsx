@@ -7,39 +7,39 @@ import logoChampi from '../../assets/logo/RoyaumeChampi.png';
 // styles
 import styles from '../../styles/components/charaCard.module.scss';
 
-function charaCard({
-   nom,
-   prenom,
-   prenomComplet,
-   espece,
+function CharaCard({
+   name,
+   surname,
+   fullname,
+   specie,
    royaumeKoopa,
    image,
    id,
 }) {
    return (
-      <Link className={styles.card} to={`/evilkingdomohfot/personnage/${id}`}>
+      <Link className={styles.card} to={`/evilkingdomohfot/personnages/${id}`}>
          <img
             src={image}
-            alt={`${prenom}, un ${espece}.`}
+            alt={`${name}, un ${specie}.`}
             draggable="false"
             className={styles.card__img}
          />
          <div className={styles.cardWrap}>
-            <h3 className={styles.title}>{prenom}</h3>
+            <h3 className={styles.title}>{name}</h3>
             <div className={styles.description}>
                <p>
                   <span className={styles.description__highlight}>
                      Prénom(s)
                   </span>{' '}
-                  : {prenomComplet}
+                  : {fullname}
                </p>
                <p>
                   <span className={styles.description__highlight}>Nom(s)</span>{' '}
-                  : {nom}
+                  : {surname}
                </p>
                <p>
                   <span className={styles.description__highlight}>Espèce</span>{' '}
-                  : {espece}
+                  : {specie}
                </p>
                <div className={styles.affiliationImg}>
                   {' '}
@@ -65,4 +65,13 @@ function charaCard({
    );
 }
 
-export default charaCard;
+CharaCard.defaultProps = {
+   name: 'À venir...',
+   surname: 'À venir...',
+   fullname: 'À venir...',
+   specie: 'À venir...',
+   royaumeKoopa: 'À venir...',
+   image: logoKoopa,
+};
+
+export default CharaCard;

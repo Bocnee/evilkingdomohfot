@@ -9,7 +9,7 @@ function FichePerso() {
    const chara = characterList.find((chara) => chara.id === id);
    return (
       <div className={pagesWrap.pagesWrap}>
-         <h3 className={titleStyle.pageTitle}>{chara.prenom}</h3>
+         <h3 className={titleStyle.pageTitle}>{chara.name}</h3>
       </div>
    );
 }

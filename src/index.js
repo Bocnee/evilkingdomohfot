@@ -32,7 +32,7 @@ createRoot(document.getElementById('root')).render(
                element={<Personnages />}
             />
             <Route
-               path="/evilkingdomohfot/personnage/:id"
+               path="/evilkingdomohfot/personnages/:id"
                element={<FichePerso />}
             />
             <Route path="/evilkingdomohfot/histoire" element={<Histoire />} />

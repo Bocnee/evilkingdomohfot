@@ -18,18 +18,20 @@ function Personnages() {
       <div className={pagesWrap.pagesWrap}>
          <h3 className={titleStyle.pageTitle}>Personnages</h3>
          <div className={styles.cardWrap}>
-            {characterList.map((chara) => (
-               <CharaCard
-                  id={chara.id}
-                  key={chara.id}
-                  prenom={chara.prenom}
-                  nom={chara.nom}
-                  prenomComplet={chara.prenomComplet}
-                  espece={chara.espece}
-                  image={chara.img}
-                  royaumeKoopa={chara.royaumeKoopa}
-               />
-            ))}
+            {characterList
+               .sort((a, b) => (a.name > b.name ? 1 : -1))
+               .map((chara) => (
+                  <CharaCard
+                     id={chara.id}
+                     key={chara.id}
+                     name={chara.name}
+                     surname={chara.surname}
+                     fullname={chara.fullname}
+                     specie={chara.specie}
+                     image={chara.imgCart}
+                     royaumeKoopa={chara.royaumeKoopa}
+                  />
+               ))}
          </div>
       </div>
    );
