@@ -8,7 +8,7 @@ export const characterList = [
    {
       prenom: 'Boo',
       nom: '???',
-      id: '1abc',
+      id: 'boo',
       prenomComplet: '???',
       surnoms: 'Boo',
       affiliation: 'Royaume Koopa',
@@ -19,7 +19,7 @@ export const characterList = [
    {
       prenom: "Mass' Cassandre",
       nom: 'Maskass',
-      id: '2abc',
+      id: 'cassandre',
       prenomComplet: 'Cassandre',
       surnoms: 'Cass',
       affiliation: 'Royaume Koopa',
@@ -29,7 +29,7 @@ export const characterList = [
    {
       prenom: 'Bowser Jr.',
       nom: 'Koopa',
-      id: '3abc',
+      id: 'bowserjr',
       prenomComplet: 'Bowser Junior',
       surnoms: 'Junior',
       affiliation: 'Royaume Koopa',
@@ -40,7 +40,7 @@ export const characterList = [
    {
       prenom: 'Kaoryl',
       nom: 'Draft',
-      id: '4abc',
+      id: 'kaoryl',
       prenomComplet: 'Kaoryl',
       surnoms: "Kao'",
       affiliation: 'Royaume Koopa',
@@ -51,7 +51,7 @@ export const characterList = [
    {
       prenom: 'Lotpie',
       nom: 'van Hasten',
-      id: '5abc',
+      id: 'lotpie',
       prenomComplet: 'Lother-Pinhas',
       surnoms: 'Lotpie, L.P., Lother',
       affiliation: 'Royaume Koopa',

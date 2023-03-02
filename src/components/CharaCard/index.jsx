@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 // importation des images
 import logoKoopa from '../../assets/logo/RoyaumeKoopa.png';
 import logoChampi from '../../assets/logo/RoyaumeChampi.png';
@@ -12,9 +14,10 @@ function charaCard({
    espece,
    royaumeKoopa,
    image,
+   id,
 }) {
    return (
-      <article className={styles.card}>
+      <Link className={styles.card} to={`/evilkingdomohfot/personnage/${id}`}>
          <img
             src={image}
             alt={`${prenom}, un ${espece}.`}
@@ -58,7 +61,7 @@ function charaCard({
                </div>
             </div>
          </div>
-      </article>
+      </Link>
    );
 }
 

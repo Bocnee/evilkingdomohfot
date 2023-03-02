@@ -20,6 +20,7 @@ function Personnages() {
          <div className={styles.cardWrap}>
             {characterList.map((chara) => (
                <CharaCard
+                  id={chara.id}
                   key={chara.id}
                   prenom={chara.prenom}
                   nom={chara.nom}

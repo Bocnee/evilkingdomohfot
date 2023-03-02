@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 
 // pages
 import Personnages from './pages/personnages';
+import FichePerso from './pages/fichePerso';
 import Home from './pages/home';
 import Histoire from './pages/histoire';
 import Lieux from './pages/lieu';
@@ -29,6 +30,10 @@ createRoot(document.getElementById('root')).render(
             <Route
                path="/evilkingdomohfot/personnages"
                element={<Personnages />}
+            />
+            <Route
+               path="/evilkingdomohfot/personnage/:id"
+               element={<FichePerso />}
             />
             <Route path="/evilkingdomohfot/histoire" element={<Histoire />} />
             <Route path="/evilkingdomohfot/lieux" element={<Lieux />} />
